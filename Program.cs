@@ -90,6 +90,7 @@
                     // Garanterad stängning av resurs
                     reader?.Close();
                     Console.WriteLine("finally i ProcessFile: StreamReader stängd.");
+                    
                 }
             }
         }
